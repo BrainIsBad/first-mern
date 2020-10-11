@@ -1,0 +1,23 @@
+{
+  "name": "first-mern",
+  "version": "1.0.0",
+  "description": "First MERN app https://www.youtube.com/watch?v=ivDjWYcKDZ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrainIsBad/first-mern.git"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Bohdan Ishchuk <oh.fworld@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrainIsBad/first-mern/issues"
+  },
+  "homepage": "https://github.com/BrainIsBad/first-mern#readme"
+}
