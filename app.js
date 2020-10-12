@@ -1,5 +1,5 @@
 const express = require('express')
-use path = require('path')
+const path = require('path')
 const config = require('config')
 const mongoose = require('mongoose')
 
