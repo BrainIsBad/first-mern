@@ -2,22 +2,37 @@
   "name": "first-mern",
   "version": "1.0.0",
   "description": "First MERN app https://www.youtube.com/watch?v=ivDjWYcKDZ",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "startDev": "concurrently \"npm run dev\" \"npm run client\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BrainIsBad/first-mern.git"
   },
   "keywords": [
-    "mern"
+    "mern, react"
   ],
   "author": "Bohdan Ishchuk <oh.fworld@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BrainIsBad/first-mern/issues"
   },
-  "homepage": "https://github.com/BrainIsBad/first-mern#readme"
+  "homepage": "https://github.com/BrainIsBad/first-mern#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "shortid": "^2.2.15"
+  }
 }

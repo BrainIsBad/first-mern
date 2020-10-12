@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://root:root123@cluster0.kocsa.mongodb.net/mern?retryWrites=true&w=majority",
+  "jwtSecret": "secretsecretkey",
+  "baseUrl": "http://localhost:5000"
+}
